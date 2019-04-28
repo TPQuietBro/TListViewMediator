@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'TListViewMediator_Example' do
+  pod 'TListViewMediator', :path => '../'
+
+  target 'TListViewMediator_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
